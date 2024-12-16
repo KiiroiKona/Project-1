@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h2>Miata NA</h2>
+            <img class="logo" src="./assets/soro-white.png" alt="">
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Gallery</a>
+                <a href="#">Community</a>
+              </div>
+              <button class="openbtn" onclick="openNav()">&#9776; MENU</button>
+        </div>
+    </header>
+    <main class="snap-container">
+        <section class="snap-section" id="slide1">
+            <video id="background-video" autoplay loop muted poster="./assets/bg1.jpg">
+                <source src="./assets/exterior-miot.mp4" type="video/mp4">
+              </video>
+            <div class="car-container">
+                <img id="car" src="./assets/miot.png" alt="Car" />
+            </div>
+            <div class="content">
+                <h2>Experience Elegance</h2>
+                <p>Discover the epitome of simplicity and cuteness.</p>
+            </div>
+        </section>
+        <section class="snap-section" id="slide2">
+            <div class="content">
+                <h2>Refined Quality</h2>
+                <p>Innovation that redefines the future of automobiles.</p>
+            </div>
+        </section>
+        <section class="snap-section" id="slide3">
+            <video id="background-video" autoplay loop muted poster="./assets/bg3.jpg">
+                <source src="./assets/interior-miot.mp4" type="video/mp4">
+              </video>
+            <div class="content">
+                <h2>Unmatched Comfort</h2>
+                <p>Crafted for those who seek unparalleled serenity.</p>
+            </div>
+        </section>
+        <section class="snap-section" id="slide4">
+            <div class="content">
+                <h2>Devotion Spirit</h2>
+                <p>Timeless design meets extraordinary pleasure.</p>
+                <div class="nav">
+                    <ul>
+                        <li>Services</li>
+                        <li>Story</li>
+                    </ul>
+                    <ul>
+                        <li>Location</li>
+                        <li>Source</li>
+                    </ul>
+                    <ul>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
